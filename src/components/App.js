@@ -27,6 +27,7 @@ const App = () => {
         placeholder="Type to search fruits..."
       />
       <ul>
+        <li></li>
         {suggestions.map((suggestion, index) => (
           <li key={index}>{suggestion}</li>
         ))}
